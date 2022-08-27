@@ -7,7 +7,7 @@
 */
 
 :root{
---header-bg:;
+--header-background:;
 --header-logo:;
 --sidebar-folded-icon:;
 --font-h1:;
@@ -108,7 +108,7 @@ body {
  color:#333;
 }
 div#container-wrap {
-     background:var(--header-bg) top left repeat-x; 
+     background:var(--header-background) top left repeat-x; 
 }
 td.name {
  width:40%;
