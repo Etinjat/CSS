@@ -34,7 +34,7 @@ ____________________________
 --topbar-height-on-mobile:2.5rem;
         --search-width: calc(var(--base-font-size)*15);
         --search-height: calc(var(--base-font-size)*1.8);
-        --account-height: var(--search-height)
+        --account-height: var(--search-height);
 
             /* 评分栏 */
          --rating-module-height: 1.3125em;
