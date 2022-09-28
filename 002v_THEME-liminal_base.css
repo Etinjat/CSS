@@ -19,8 +19,6 @@
     --header-title-mob: var(--header-title);
     --header-subtitle-mob: var(--header-subtitle);
     
-    
- 
     --white-monochrome: 237, 233, 223;
     --pale-gray-monochrome: 255, 251, 240;
     --light-gray-monochrome: 160, 160, 160;
@@ -329,13 +327,22 @@ iframe.scpnet-interwiki-frame {
   display:none; 
 }
  
-#side-bar .side-block:first-child a:before{
+#side-bar .side-block:first-child a:not([href="javascript:;"]):before{
   content: '  ';
   display: inline-block;
   width:var(--sidebar-icon-size);
   height:var(--sidebar-icon-size);
   background-image: var(--sidebar-icon-bg);
   background-color:  var(--sidebar-icon-color);
+
+ -webkit-mask:var(--unset-icon);
+ -webkit-mask-size: contain;
+ -webkit-mask-repeat: no-repeat;
+ -webkit-mask-position: center;
+    mask:var(--unset-icon);
+    mask-size: contain;
+    mask-position: center;
+    mask-repeat: no-repeat;
 }
  
 #side-bar .side-block:first-child { 
@@ -350,87 +357,67 @@ margin-top: 0.2rem;
 }
  
 #side-bar .side-block:first-child a[href*="twitter.com"]:before{
-  mask:var(--twitter-icon);
- -webkit-mask:var(--twitter-icon);
+  mask-image:var(--twitter-icon);
+ -webkit-mask-image:var(--twitter-icon);
   mask-size: cover;
  -webkit-mask-size: cover;
 }
  
 #side-bar .side-block:first-child a[href*="tieba"]:before{
-  mask:var(--tieba-icon);
- -webkit-mask:var(--tieba-icon);
+  mask-image:var(--tieba-icon);
+ -webkit-mask-image:var(--tieba-icon);
   mask-size: cover;
  -webkit-mask-size: cover;
 }
  
 #side-bar .side-block:first-child a[href*="fandom"]:before{
-  mask:var(--fandom-icon);
- -webkit-mask:var(--fandom-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--fandom-icon);
+ -webkit-mask-image:var(--fandom-icon);
 }
  
 #side-bar .side-block:first-child a[href*="discord"]:before{
-  mask:var(--discord-icon);
- -webkit-mask:var(--discord-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--discord-icon);
+ -webkit-mask-image:var(--discord-icon);
 }
  
 #side-bar .side-block:first-child a[href*="b23.tv"]:before{
-  mask:var(--bilibili-icon);
- -webkit-mask:var(--bilibili-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--bilibili-icon);
+ -webkit-mask-image:var(--bilibili-icon);
 }
  
 #side-bar .side-block:first-child a[href*="backrooms-wiki-cn"]:before{
-  mask:var(--brcn-icon);
- -webkit-mask:var(--brcn-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--brcn-icon);
+ -webkit-mask-image:var(--brcn-icon);
 }
  
 #side-bar .side-block:first-child a[href*="twitter"]:before{
-  mask:var(--twitter-icon);
- -webkit-mask:var(--twitter-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--twitter-icon);
+ -webkit-mask-image:var(--twitter-icon);
 }
  
 #side-bar .side-block:first-child a[href*="reddit"]:before{
-  mask:var(--reddit-icon);
- -webkit-mask:var(--reddit-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--reddit-icon);
+ -webkit-mask-image:var(--reddit-icon);
 }
  
 #side-bar .side-block:first-child a[href*="youtube"]:before{
-  mask:var(--ytb-icon);
- -webkit-mask:var(--ytb-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--ytb-icon);
+ -webkit-mask-image:var(--ytb-icon);
 }
  
 #side-bar .side-block:first-child a[href*="instagram"]:before{
-  mask:var(--instagram-icon);
- -webkit-mask:var(--instagram-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--instagram-icon);
+ -webkit-mask-image:var(--instagram-icon);
 }
  
 #side-bar .side-block:first-child a[href*="facebook"]:before{
-  mask:var(--facebook-icon);
- -webkit-mask:var(--facebook-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--facebook-icon);
+ -webkit-mask-image:var(--facebook-icon);
 }
  
 #side-bar .side-block:first-child a[href*="tiktok"]:before{
-  mask:var(--tiktok-icon);
- -webkit-mask:var(--tiktok-icon);
-  mask-size: cover;
- -webkit-mask-size: cover;
+  mask-image:var(--tiktok-icon);
+ -webkit-mask-image:var(--tiktok-icon);
 }
  
 /*===================================
