@@ -1,14 +1,12 @@
 # 汇文明朝
+### base
+基金会控制收容保护護abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789,.&·「」□
 
-汇文明朝
-基金会控制收容保护護
-中维基特半月刊年日
-零〇一二三四五六七八九十
-总第上下期
-華異學會华异学格治融
-天枢樞篇荧惑守心语谈
- 
-abcdefghijklmnopqrstuvwxyz
-ABCDEFGHIJKLMNOPQRSTUVWXYZ
- 
-0123456789-()（）[]/&~,;.'"?!！：；“”？、·《》<>「」『』【】◎○●□
+### yxh
+中華異學會华异学格治融
+
+### semimonth
+中文维基特半月刊年日零〇一二三四五六七八九十总第上下期『』【】，、/
+
+### liuzhou
+六州天枢樞篇三十六年荧惑守心，
